@@ -5,10 +5,13 @@ body{
     h1{
         font-size: 50px;
     }
+    h2{
+        font-size: 40pxt;
+    }
     .sayma{
         color: orange;
     }
-    section{
+    .flexible-container{
         display: flex;
     margin-bottom: 150px;
     }
@@ -37,4 +40,29 @@ body{
         background-repeat: no-repeat;
 background-position: right;
     }
-    
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-left: 5% ;
+    padding-left: 20px;
+    border-radius: 10px;
+ }
+.experience-area{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position:left ;
+    }
+#web-dev-ecperience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}    
+#full-stack-erperience{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}

@@ -16,11 +16,18 @@ body{
     margin-bottom: 150px;
     }
     .class1{
-        width: 50%;
+        width: 60%;
         padding-left: 2%;
     }
     .class1 img{
         width: 80%;
+    }
+    .class2{
+        width: 60%;
+        padding-left: 2%;
+    }
+    .class2 img{
+        width: 150%;
     }
     .class-button{
         text-decoration: none;
